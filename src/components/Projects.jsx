@@ -1,12 +1,11 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/project-img1.png";
-import projImg2 from "../assets/project-img1.png";
 import asterisk from "../assets/asterisk_thumb.jpg";
 import n1 from "../assets/n1_thumb.jpg";
 import socials from "../assets/socials_thumb.jpg";
 import mindbulb from "../assets/mindbulb_thumb.jpg";
 import realz from "../assets/realz_thumb.jpg";
+import shopz from "../assets/shopz_thumb.jpg";
 import quasar from "../assets/quantum_thumb.jpg";
 import reactPortfolio from "../assets/react_portfolio_thumb.jpg";
 import portfolio from "../assets/portfolio_thumb.jpg";
@@ -21,6 +20,20 @@ export const Projects = () => {
 
     const reactProjects = [
         {
+            title: "Shopz",
+            description: "An E-commerce website made using React and Sanity as its backend. It also uses Stripe for the payment processing.",
+            language: "Next JS",
+            url: "https://bpacheco-shopz.vercel.app/",
+            imgUrl: shopz,
+        },
+        {
+            title: "Socials",
+            description: "A Social Media website that uses Sanity as the backend solution",
+            language: "React JS",
+            url: "https://bpacheco-socials.vercel.app/",
+            imgUrl: socials,
+        },
+        {
             title: "Asterisk Finance",
             description: "An NFT and DEX website that sells NFTs to users under the zkSync chain",
             language: "Next JS",
@@ -34,13 +47,7 @@ export const Projects = () => {
             url: "https://bpacheco-n1.netlify.app/",
             imgUrl: n1,
         },
-        {
-            title: "Socials",
-            description: "A Social Media website that uses Sanity as the backend solution",
-            language: "React JS",
-            url: "https://bpacheco-socials.vercel.app/",
-            imgUrl: socials,
-        },
+        
         {
             title: "Realz",
             description: "A Real Estate website template",
@@ -48,13 +55,13 @@ export const Projects = () => {
             url: "https://bpacheco-realz.vercel.app/",
             imgUrl: realz,
         },
-        {
-            title: "Quantum Prime",
-            description: "A financial website where users will subscribe to receive financial tips",
-            language: "Vue JS / Quasar",
-            url: "https://bpacheco-quantum-prime.netlify.app/",
-            imgUrl: quasar,
-        },
+        // {
+        //     title: "Quantum Prime",
+        //     description: "A financial website where users will subscribe to receive financial tips",
+        //     language: "Vue JS / Quasar",
+        //     url: "https://bpacheco-quantum-prime.netlify.app/",
+        //     imgUrl: quasar,
+        // },
         {
             title: "React Portfolio",
             description: "This is the current portfolio being used. It was made using ",
