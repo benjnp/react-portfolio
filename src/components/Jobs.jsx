@@ -16,10 +16,10 @@ const Jobs = () => {
                             <div className="a-header">
                                 <div className="a-header-left">
                                     <span className="text-bold">BlockX</span>
-                                    <span className="text-bold">Chief Technology Officer</span>
+                                    <span className="text-bold">Web Developer / Project Manager</span>
                                 </div>
                                 <div className="a-header-right">
-                                    <span>March 2021 - December 2023</span>
+                                    <span>June 2020 - December 2023</span>
                                 </div>
                             </div>
                         </Accordion.Header>
@@ -29,14 +29,14 @@ const Jobs = () => {
                                     <span className="text-bold">Highlight:</span> Launched the blockchain project to Mainnet with 50+ public validators.
                                 </span>
                                 <span>
-                                <span className="text-bold">Role:</span> This is a Part-time role. As the startup project's CTO, it requires hands-on planning the roadmap as well as be part of its implementation.
-                                    This include frontend, backend, node management and blockchain-related tasks either via Smart Contracts or via Cosmos SDK 
+                                <span className="text-bold">Role:</span> It is a Blockchain startup company with a goal of having its blockchain and its own ecosystems of supporting web apps that blockchain users 
+                                will be able to use for trading, bridging, creating smart contracts, etc. 
                                 </span>
                             </div>
                             
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="1">
+                    {/* <Accordion.Item eventKey="1">
                         <Accordion.Header>
                             <div className="a-header">
                                 <div className="a-header-left">
@@ -60,8 +60,8 @@ const Jobs = () => {
                                 </span>
                             </div>                                    
                         </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="2">
+                    </Accordion.Item> */}
+                    {/* <Accordion.Item eventKey="2">
                         <Accordion.Header>
                             <div className="a-header">
                                 <div className="a-header-left">
@@ -85,8 +85,8 @@ const Jobs = () => {
                             </div>
                             
                         </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="3">
+                    </Accordion.Item> */}
+                    <Accordion.Item eventKey="1">
                         <Accordion.Header>
                             <div className="a-header">
                                 <div className="a-header-left">
@@ -111,7 +111,7 @@ const Jobs = () => {
                             </div>                                    
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="4">
+                    <Accordion.Item eventKey="2">
                         <Accordion.Header>
                             <div className="a-header">
                                 <div className="a-header-left">
@@ -135,7 +135,7 @@ const Jobs = () => {
                             </div>                                    
                         </Accordion.Body>
                     </Accordion.Item>
-                    <Accordion.Item eventKey="5">
+                    <Accordion.Item eventKey="3">
                         <Accordion.Header>
                             <div className="a-header">
                                 <div className="a-header-left">
