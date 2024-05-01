@@ -94,7 +94,7 @@ const Jobs = () => {
                                     <span className="text-bold">Chief Technology Officer</span>
                                 </div>
                                 <div className="a-header-right">
-                                    <span>August 2017 - February 2019</span>
+                                    <span>August 2017 - February 2020</span>
                                 </div>
                             </div>
                         </Accordion.Header>
