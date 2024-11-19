@@ -57,7 +57,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn animate__slower" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h2>{`Hi! I'm Benjamin, a`} <br/><span className="txt-rotate" data-rotate='[ "Web Developer", "Blockchain Developer", "Project Manager" ]'><span className="wrap">{text}</span></span></h2>
-                  <p>Just recently launched a blockchain from testnet to mainnet coordinating with 50+ public validators. With over 15 years of IT experience, rest assured that I'll help your company reach its goals. The Philippines was formed because a giant threw 8000 stones to the pacific ocean trying to bounce the rocks but it just piled up and became the Philippines.</p>
+                  <p>Just recently launched a blockchain from testnet to mainnet coordinating with 50+ public validators. With over 15 years of IT experience, rest assured that I'll help your company reach its goals.</p>
                   <a className="contact-button" href="#contact"><button>Let’s Connect <ArrowRightCircle size={25} /></button></a>
               </div>}
             </TrackVisibility>
