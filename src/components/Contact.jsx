@@ -58,8 +58,8 @@ export const Contact = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h2>Sorry Amiel, bawal ka magsend</h2>
-                {/* <form action="https://formbold.com/s/oJgkE" method="POST">
+                <h2>Get In Touch</h2>
+                <form action="https://formbold.com/s/oJgkE" method="POST">
                   <Row>
                     <Col size={12} sm={6} className="px-1">
                       <input type="text" required name="firstname" value={formDetails.firstName} placeholder="First Name*" onChange={(e) => onFormUpdate('firstName', e.target.value)} />
@@ -84,7 +84,7 @@ export const Contact = () => {
                       </Col>
                     }
                   </Row>
-                </form> */}
+                </form>
               </div>}
             </TrackVisibility>
           </Col>
