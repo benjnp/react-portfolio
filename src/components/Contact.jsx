@@ -13,7 +13,7 @@ export const Contact = () => {
     message: ''
   }
   const [formDetails, setFormDetails] = useState(formInitialDetails);
-  const [buttonText, setButtonText] = useState('Sorry Amiel');
+  const [buttonText, setButtonText] = useState('Send');
   const [status, setStatus] = useState({});
 
   const onFormUpdate = (category, value) => {
