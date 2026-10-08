@@ -64,9 +64,9 @@ export const Projects = () => {
         // },
         {
             title: "React Portfolio",
-            description: "This is the current portfolio being used. It was made using ",
+            description: "This is the current portfolio being used. It was made using React JS",
             language: "React JS",
-            url: "https://bpacheco.site",
+            url: "https://bpacheco-react-portfolio.vercel.app/",
             imgUrl: reactPortfolio,
         }
     ];
@@ -100,7 +100,7 @@ export const Projects = () => {
             title: "BlockX Mainnet",
             description: "This is an EVM chain created using Cosmos SDK and launched to mainnet last January 16, 2024 with 50+ public validators. A separate testnet is also working that can be accessed by the public.",
             language: "Cosmos SDK",
-            url: "https://github.com/BlockXLabs/networks/tree/master/chains/blockx_100-1",
+            url: "https://github.com/BlockXLabs/networks/tree/master/chains/blockx_19191-1",
             imgUrl: blockx,
         },
         {

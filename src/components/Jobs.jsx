@@ -16,7 +16,7 @@ const Jobs = () => {
                             <div className="a-header">
                                 <div className="a-header-left">
                                     <span className="text-bold">BlockX</span>
-                                    <span className="text-bold">Web Developer / Project Manager</span>
+                                    <span className="text-bold">Chief Technology Officer - Part-time</span>
                                 </div>
                                 <div className="a-header-right">
                                     <span>June 2020 - December 2023</span>
